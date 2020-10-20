@@ -1,5 +1,13 @@
 import React from 'react';
-import { Nav, NavbarContainer, NavLogo } from './NavbarStyled';
+import {
+    Nav,
+    NavbarContainer,
+    NavLogo,
+    MobileIcon,
+    NavMenu,
+    NavItem,
+    NavLinks
+} from './NavbarStyled';
 
 const Navbar = () => {
     return (
@@ -7,6 +15,14 @@ const Navbar = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/">Dolla</NavLogo>
+                    <MobileIcon>
+                        <FaBars />
+                    </MobileIcon>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to="/about"></NavLinks>
+                        </NavItem>
+                    </NavMenu>
                 </NavbarContainer>
             </Nav>
         </>
