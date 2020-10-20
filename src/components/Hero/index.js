@@ -1,4 +1,5 @@
 import React from 'react';
+import { HeroContainer, HeroBackGround, VideoBg } from './HeroStyled';
 
 const Hero = () => {
     return (
