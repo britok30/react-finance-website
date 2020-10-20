@@ -6,6 +6,8 @@ import {
     SidebarWrapper,
     SidebarMenu,
     SidebarLink,
+    SideBtnWrap,
+    SidebarRoute,
 } from './SidebarStyled';
 
 const Sidebar = () => {
