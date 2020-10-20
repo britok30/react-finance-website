@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+
+
 export const HeroContainer = styled.div`
     background: #0c0c0c;
     display: flex;
@@ -11,7 +13,7 @@ export const HeroContainer = styled.div`
     z-index: 1;
 `;
 
-export const HeroBackground = styled.div`
+export const HeroBackGround = styled.div`
     position: absolute;
     top: 0;
     right: 0;
