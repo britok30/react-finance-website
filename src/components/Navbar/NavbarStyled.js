@@ -45,6 +45,7 @@ export const MobileIcon = styled.div`
     display: none;
 
     @media screen and (max-width: 768px) {
+        display: block;
         position: absolute;
         top: 0;
         right: 0;
