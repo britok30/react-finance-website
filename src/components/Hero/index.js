@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import {
     HeroContainer,
     HeroBackGround,
-    VideoBg,
+    ImgBg,
     HeroContent,
     HeroH1,
     HeroP,
-    Button,
     HeroBtnWrapper,
     ArrowForward,
     ArrowRight,
 } from './HeroStyled';
-import Video from '../../videos/video.mp4';
+import Img from '../../images/ishant-mishra-osWDvhPlGLU-unsplash.jpg';
+import { Button } from '../ButtonStyled';
 
 const Hero = () => {
     const [hover, setHover] = useState(false);
@@ -23,18 +23,12 @@ const Hero = () => {
     return (
         <HeroContainer>
             <HeroBackGround>
-                <VideoBg
-                    autoPlay
-                    loop
-                    muted
-                    src={Video}
-                    type="video/mp4"
-                ></VideoBg>
+                <ImgBg src={Img}></ImgBg>
             </HeroBackGround>
             <HeroContent>
                 <HeroH1>Investing for Everyone</HeroH1>
                 <HeroP>
-                    RobinStox, a pioneer of commission-free investing, gives you
+                    RobinX, a pioneer of commission-free investing, gives you
                     more ways to make your money work harder.
                 </HeroP>
                 <HeroBtnWrapper>
