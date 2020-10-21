@@ -35,7 +35,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'about',
+    id: 'signup',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -46,7 +46,7 @@ export const homeObjThree = {
     buttonLabel: 'Get Started',
     imgStart: false,
     img: require('../../images/svg-3.svg'),
-    alt: 'Car',
+    alt: 'Analytics',
     dark: true,
     primary: true,
     darkText: false,
