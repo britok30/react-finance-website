@@ -10,7 +10,7 @@ import {
     ArrowForward,
     ArrowRight,
 } from './HeroStyled';
-import Img from '../../images/ishant-mishra-osWDvhPlGLU-unsplash.jpg';
+import Img from '../../images/hero.jpg';
 import { Button } from '../ButtonStyled';
 
 const Hero = () => {
