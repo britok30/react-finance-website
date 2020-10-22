@@ -9,9 +9,13 @@ import {
     ProductsP,
 } from './ProductsStyled';
 
+import Icon1 from '../../images/svg-4.svg';
+import Icon2 from '../../images/svg-5.svg';
+import Icon3 from '../../images/svg-6.svg';
+
 const Products = () => {
     return (
-        <ProductsContainer>
+        <ProductsContainer id="products">
             <ProductsH1>Our Products</ProductsH1>
             <ProductsWrapper>
                 <ProductsCard>
