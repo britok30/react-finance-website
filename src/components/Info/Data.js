@@ -6,7 +6,7 @@ export const homeObjOne = {
     topLine: 'Commission Fees',
     headline: 'Break Free from Commission Fees',
     description:
-        'Make unlimited commission-free trades in stocks, ETFs, and options with RobinX Financial, as well as buy and sell cryptocurrencies with RobinX Crypto.',
+        'Make unlimited commission-free trades in stocks, ETFs, and options with RobinTrade Financial, as well as buy and sell cryptocurrencies with RobinTrade Crypto.',
     buttonLabel: 'Get Started',
     imgStart: false,
     img: require('../../images/svg-1.svg'),

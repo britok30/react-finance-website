@@ -28,7 +28,7 @@ const Hero = () => {
             <HeroContent>
                 <HeroH1>Investing for Everyone</HeroH1>
                 <HeroP>
-                    RobinX, a pioneer of commission-free investing, gives you
+                    RobinTrade, a pioneer of commission-free investing, gives you
                     more ways to make your money work harder.
                 </HeroP>
                 <HeroBtnWrapper>
